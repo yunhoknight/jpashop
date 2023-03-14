@@ -1,0 +1,18 @@
+spring: # spring boot에서 아래의 초기 세팅
+#  datasource:
+#    url: jdbc:h2:mem:test # in-memory를 사용 url
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+
+logging.level:
+  org.hibernate.SQL: debug
+#  org.hibernate.type: trace
